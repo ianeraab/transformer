@@ -10,9 +10,11 @@ Esse repositório implementa um modelo Transformer com TensorFlow para traduçã
 
 ## Pontos Negativos (Desafios e Limitações do Transformer)  
 
+**CPU vs GPU**
+
 1. CPU vs GPU
    - O modelo exige muita memória e poder computacional, especialmente em grandes conjuntos de dados.
-   - Ele atingiu o limite de RAM com CPU. GPUs são praticamente indispensáveis.
+   - No Google Colab, a GPU T4 levou 17 min, enquanto a CPU demorou mais de 1h por uma época de treinamento.
 
 2. Precisam de muito texto para treinar. Se os dados forem limitados, o modelo pode não generalizar bem.  
 
